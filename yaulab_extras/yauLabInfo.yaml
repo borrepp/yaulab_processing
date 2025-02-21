@@ -1,0 +1,89 @@
+LabInfo:
+  Name: Jeffrey M Yau
+  Institution: Deparment of Neuroscience, Baylor College of Medicine
+  TimeZone: America/Chicago
+ShakerInfo:
+  Model: K2007E01
+  Description: Mini SmartShaker with Integrated Amplifier
+  ModelNumber: "513.351.9919"
+  Company: THE MODAL SHOP
+  Website: https://www.modalshop.com/vibration-test/products/vibration-test-shakers/smartshaker-integrated-amp
+EyeTrackingInfo:
+  EyeTracked: Left
+  XYComments: "Eye data was collected with a high speed resolution IR camera and processed using C++ custom code
+    developed by Jian Chen & Jing Lin at Baylor College of Medicine. Eye calibration is performed every day"
+  PupilDiameterComments: "Pupil data was collected with a high speed resolution IR camera and processed using C++ custom code
+    developed by Jian Chen & Jing Lin at Baylor College of Medicine. Eye calibration is performed every day and the diameter depends
+    on the pupil adjustment that is performed manually (usually set to the same value for each monkey)
+    Pupil diameter might not be comparable across different days"
+MarkerOffsetTolerance:
+  TactileStim: [
+    0.080000, 
+    "Difference between theoretical Start and End of TactileStim (stimON + durationParameter) vs timeStamps detected from accelerometer signals. If the difference is higher than this value, it will prompt a message"
+  ]
+  MicroStim: [
+    0.090000, 
+    "Difference between theoretical end of MicroStim (stimON + durationParameter) vs Marker-91 (end of MicroStim) if the difference is higher than this value, it will prompt a message"
+  ]
+  VisualCue: [
+   0.150000, 
+   "Difference between theoretical Start of VisualCues (stimON + VisualCue_StartTime) vs Marker-15 (start of VisualCue) if the difference is higher than this value, it prompt a message"
+  ]
+  PhotodiodeON: [
+   0.200000, 
+   "Difference between theoretical Start of Fixation (marker-1) or VisualEvents (VisualCue: Marker-15, ChoiceTargetsON: Marker-5) vs Photodiode-Pulse Onset. If the difference is higher than this value, it will prompt a message"
+  ]
+SecsToStopPreviousTrial: [
+  0.001000, 
+  "stop_time will be defined by substracting this amount of time to the nextTrial start_time"
+]
+SecsToStopPreviousStim: [
+  0.001000, 
+  "stimTimeOFF will be defined by substracting this amount of time to the next stimTimeON"
+]
+SecsToAddAccelerometer : [
+  0.004000,
+  "seconds to add to the duration of the stimulus to be detected from Ripple 30KHz Analog Accelerometer, it will help to include signal below Threshold"
+]
+AddFirstStimAccelerometer :
+  Secs: [0.100000, "seconds to add to the stimulation period of the first stimulus to be detected from Ripple 30KHz Analog Accelerometer, 
+  it will help to include the signal when the first Tactile stim is delayed by the software refresh rate"]
+  trialNum: [20, "number of trials to add this Stop duration (it is assume that after the first Tactile will be no more delays)"]
+SecsToAddPhotodiode : [
+  0.005000,
+  "seconds to add or substract to the onset & offset of the photodiode signal, it will help to include signal below Threshold"
+]
+ThresholdReward_mV : 2500
+ThresholdFeet_mV : 1500
+StimDefaults:
+  NoTime: -1.000000
+  NoStimParam: 0.000000
+  Tactile:
+    Start Time: 0.000000
+    Duration: 0.000000
+    Amp: 0.000000
+    Freq: 0.000000
+  MicroStim:
+    Stimulus: 0
+    StartTime: 0.000000
+    Channel: [-1, -1, -1, -1]
+    ChannelStart_time: [0.000000, 0.000000, 0.000000, 0.000000]
+    ChannelStop_time: [0.000000, 0.000000, 0.000000, 0.000000]
+    ReturnChannel: -1
+    Duration: [0.000000, 0.000000, 0.000000]
+    Frequency: [0.000000, 0.000000, 0.000000]
+    InterphaseInterval: [0.000000, 0.000000, 0.000000]
+    Phase1_Width: [0.000000, 0.000000, 0.000000]
+    Phase1_Amp: [0.000000, 0.000000, 0.000000]
+    Phase2_Width: [0.000000, 0.000000, 0.000000]
+    Phase2_Amp: [0.000000, 0.000000, 0.000000]
+  VisualCue:
+    StartTime: 0.000000
+    Duration: 0.000000
+    ID: 0
+ElectrodeDevices: [
+   'FHC-UEWLGDSMNN1E',
+   'PLX-SP-32-15SE(100)-(260-130)(640-30)-640-(1)CON32V',
+   'PLX-SP-32-15SE(75)-(260-130)(640-30)-640-(1)CON32V',
+   'PLX-SP-16-15SE(75)-(185-130)(640-30)-500-(1)CON32V'
+]

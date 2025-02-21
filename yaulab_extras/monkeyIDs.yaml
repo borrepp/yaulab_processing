@@ -1,0 +1,55 @@
+Sirius:
+  Subject ID: Sirius
+  Tatoo: "16,22"
+  Species: Macaca mulatta
+  Genotype: Wild type
+  Sex: M
+  Date of Birth: 2016-04-27 00:00:00.00-06:00
+  Lab: Jeffrey M Yau
+  Institution: Baylor College of Medicine
+  Protocol: AN-8179
+  Surgery: HeadPost surgery performed 29-Nov-2022
+Albus:
+  Subject ID: Albus
+  Tatoo: "16,142"
+  Species: Macaca mulatta
+  Genotype: Wild type
+  Sex: M
+  Date of Birth: 2016-05-16 00:00:00.00-06:00
+  Lab: Jeffrey M Yau
+  Institution: Baylor College of Medicine
+  Protocol: AN-8179
+  Surgery: HeadPost surgery performed 13-Dec-2021. Headfix-training started March-2022. Two recording chambers implanted 09-Jan-2024 targeting Left & Right S1.
+Lupin:
+  Subject ID: Lupin
+  Tatoo: "20,134"
+  Species: Macaca mulatta
+  Genotype: Wild type
+  Sex: M
+  Date of Birth: 2020-05-28 00:00:00.00-06:00
+  Lab: Jeffrey M Yau
+  Institution: Baylor College of Medicine
+  Protocol: AN-8179
+  Surgery: None
+Voldemort:
+  Subject ID: Voldemort
+  Tatoo: "20,139"
+  Species: Macaca mulatta
+  Genotype: Wild type
+  Sex: M
+  Date of Birth: 2020-05-29 00:00:00.00-06:00
+  Lab: Jeffrey M Yau
+  Institution: Baylor College of Medicine
+  Protocol: AN-8179
+  Surgery: None
+Snape:
+  Subject ID: Snape
+  Tatoo: "19,139"
+  Species: Macaca mulatta
+  Genotype: Wild type
+  Sex: M
+  Date of Birth: 2019-07-12 00:00:00.00-06:00
+  Lab: Jeffrey M Yau
+  Institution: Baylor College of Medicine
+  Protocol: AN-8179
+  Surgery: None
